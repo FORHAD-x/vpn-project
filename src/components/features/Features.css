@@ -1,0 +1,16 @@
+.Features{
+    @apply pt-[53px] pb-[53px]
+}
+
+.Features_row{
+    @apply pl-5 sm:pl-0 flex flex-wrap justify-around gap-10 md:gap-0
+}
+.Features_text h2{
+    @apply w-[383px] font-rubik font-medium text-[35px] text-[#0B132A] pt-[150px]
+}
+.Features_text p{
+    @apply flex pt-[20px] w-[427px] font-rubik font-normal text-[16px] text-[#4F5665] items-center gap-[10px]
+}
+.Features_img{
+    @apply pt-[95px]
+}

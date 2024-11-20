@@ -1,0 +1,56 @@
+.plan_text{
+    @apply flex flex-col justify-center items-center pt-[80px]
+}
+
+
+.plan_text h2{
+    @apply w-[383px] font-rubik text-[35px] font-medium flex items-center justify-center text-center
+}
+
+
+
+.plan_row{
+    @apply md:flex md:gap-[50px] justify-center
+}
+
+
+
+.plan_text p{
+ @apply pt-[20px] pb-[60px] w-[555px] font-rubik text-[16px] font-normal flex  justify-center text-center leading-[30px]
+}
+.free_plan{
+    @apply sm:m-auto transition duration-[.4s] rounded-[10px] w-[330px]  border-2 border-[#DDDDDD] items-center justify-center mb-[150px] 
+}
+.free_plan:hover{
+    @apply border-brandColor
+}
+.free_plan_img img{
+    @apply w-[145px] flex items-center justify-center content-center pt-[80px] m-auto
+}
+/* .free_plan_text{
+    @apply m-auto flex flex-col
+} */
+
+.free_plan_text h2{
+    @apply font-rubik font-medium text-[18px] pt-[30px] pb-[30px] text-center
+}
+.free_plan_text p{
+    @apply lg:ml-[69px] flex gap-[20px] font-rubik font-normal text-[14px] p-[10px] 
+}
+
+.free_plan_select{
+    @apply m-auto flex flex-col items-center
+}
+.free_plan_select h2{
+    @apply font-rubik font-medium text-[25px] pt-[130px] pb-[20px]
+}
+.free_plan_select button{
+    @apply transition duration-[.3s] font-rubik font-bold text-[16px] mb-[50px] text-brandColor border-[#F53838] border-2 py-[13px] px-[62px] rounded-[50px]
+}
+.free_plan_select button:hover{
+    @apply  text-white bg-[#F53838] 
+}
+
+.tik{
+     @apply text-[#2FAB73]
+}

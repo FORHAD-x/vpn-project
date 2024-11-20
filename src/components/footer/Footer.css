@@ -1,0 +1,15 @@
+.footer{
+    @apply relative mt-[300px]
+}
+.subscribe{
+    @apply items-center justify-around flex absolute top-[-100px] right-[80px] w-[1140px] h-[233px]   rounded-lg shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px]
+}
+.subscribe h2{
+    @apply w-[370px] font-rubik font-medium text-[#0B132A] text-[35px]
+}
+.subscribe p{
+    @apply  font-rubik font-normal text-[#4F5665] text-[16px]
+}
+.footer Button{
+    @apply inline-block w-[250px] h-[60px] bg-brandColor text-white font-rubik font-bold text-[16px] px-[65px] py-[17px] rounded-[10px]
+}

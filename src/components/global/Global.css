@@ -1,0 +1,123 @@
+.Global{
+    @apply mt-[50px] lg:mt-[150px]
+}
+
+
+.map{
+    @apply relative mt-[50px] lg:mt-[155px] flex justify-center
+}
+.map_target{
+    @apply absolute top-[92px] left-[150px] text-brandColor text-[17px]
+}
+.map_target:nth-child(2){
+    @apply absolute top-[83px] left-[232px] text-[25px]
+}
+.map_target:nth-child(3){
+    @apply absolute top-[95px] left-[300px] text-[25px]
+}
+
+.map_target:nth-child(4){
+    @apply absolute top-[153px] left-[275px] text-[35px]
+}
+.map_target:nth-child(5){
+    @apply absolute top-[135px] left-[390px] text-[25px]
+}
+.map_target:nth-child(6){
+    @apply absolute top-[240px] left-[300px] text-[21px]
+}
+.map_target:nth-child(7){
+    @apply absolute top-[210px] left-[355px] text-[22px]
+}
+.map_target:nth-child(8){
+    @apply absolute top-[325px] left-[390px] text-[25px]
+}
+.map_target:nth-child(9){
+    @apply absolute top-[370px] left-[430px] text-[30px]
+}
+.map_target:nth-child(10){
+    @apply absolute top-[445px] left-[407px] text-[20px]
+}
+.map_target:nth-child(11){
+    @apply absolute top-[365px] left-[480px] text-[14px]
+}
+.map_target:nth-child(12){
+    @apply absolute top-[0px] left-[380px] text-[16px]
+}
+.map_target:nth-child(13){
+    @apply absolute top-[30px] left-[465px] text-[22px]
+}
+.map_target:nth-child(14){
+    @apply absolute top-[24px] left-[528px] text-[18px]
+}
+.map_target:nth-child(15){
+    @apply absolute top-[97px] left-[467px] text-[13px]
+}
+.map_target:nth-child(16){
+    @apply absolute top-[108px] left-[628px] text-[18px]
+}
+.map_target:nth-child(17){
+    @apply absolute top-[170px] left-[670px] text-[25px]
+}
+.map_target:nth-child(18){
+    @apply absolute top-[270px] left-[590px] text-[18px]
+}
+.map_target:nth-child(19){
+    @apply absolute top-[300px] left-[690px] text-[30px]
+}
+.map_target:nth-child(20){
+    @apply absolute top-[400px] left-[670px] text-[25px]
+}
+.map_target:nth-child(21){
+    @apply absolute top-[110px] left-[770px] text-[25px]
+}
+.map_target:nth-child(22){
+    @apply absolute top-[76px] left-[843px] text-[10px]
+}
+.map_target:nth-child(23){
+    @apply absolute top-[150px] left-[865px] text-[30px]
+}
+.map_target:nth-child(24){
+    @apply absolute top-[255px] left-[830px] text-[25px]
+}
+.map_target:nth-child(25){
+    @apply absolute top-[225px] left-[910px] text-[15px]
+}
+.map_target:nth-child(26){
+    @apply absolute top-[90px] left-[980px] text-[15px]
+}
+.map_target:nth-child(27){
+    @apply absolute top-[90px] left-[1105px] text-[20px]
+}
+.map_target:nth-child(28){
+    @apply absolute top-[415px] left-[955px] text-[25px]
+}
+.map_target:nth-child(29){
+    @apply absolute top-[350px] left-[925px] text-[15px]
+}
+.map_target:nth-child(30){
+    @apply absolute top-[440px] left-[1030px] text-[15px]
+}
+
+.map_target{
+    @apply animate-ping transition-[.3s]
+}
+
+@keyframes ping{
+   0%{
+    transform: scale(1)
+   }
+   50%{
+    transform: scale(0.85)
+   }
+   100%{
+    transform: scale(1)
+
+   }
+    }
+
+
+
+.sponsored{
+    @apply mt-5 lg:mt-[40px] sm:flex sm:items-center  sm:justify-around flex-nowrap
+}
+

@@ -1,0 +1,14 @@
+.resMenu{
+    @apply lg:hidden pt-5
+}
+.resMenu_row{
+    @apply flex justify-between items-center 
+}
+
+.resMenu_icons{
+    @apply relative
+}
+.resMenu_list ul{
+    @apply absolute top-full right-6 w-[250px] bg-brandColor rounded-lg flex flex-col items-center gap-5 text-white text-[18px] font-semibold
+
+}

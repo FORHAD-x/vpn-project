@@ -1,0 +1,35 @@
+.main_nav{
+    @apply pt-[50px] hidden lg:block 
+}
+.menu_logo a img{
+    @apply w-[149px]
+}
+.menu_row{
+    @apply  flex justify-between items-center
+
+}
+.menu ul {
+ @apply   flex gap-10
+}
+menu ul li a{
+    @apply text-[16px] font-normal font-rubik text-[#4F5665]
+}
+.menu_button{
+    @apply flex gap-[30px]
+}
+.menu_button a{
+    @apply  font-[16px]  border-[1px] transition duration-[.4s] font-rubik font-medium py-[13px] px-[45px] rounded-[50px]
+}
+
+.sign_up{
+    @apply text-brandColor border-[1px] border-brandColor 
+}
+.sign_in{
+    @apply border-transparent text-[#0B132A]
+}
+.sign_in:hover{
+    @apply text-brandColor border-brandColor 
+}
+.sign_up:hover{
+    @apply text-[#0B132A] border-brandColor 
+}

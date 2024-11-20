@@ -1,0 +1,29 @@
+.BannerBottom{
+    @apply pt-20  
+}
+/* .BannerBottom_row{
+    @apply   flex justify-between
+} */
+.BannerBottom_bg{
+    @apply gap-5 lg:gap-0 flex flex-wrap justify-between w-full py-[72px] px-[91px]    rounded-[10px] bg-white shadow-[0px_41px_32px_20px_#edf2f7]
+}
+.Banner_user{
+    @apply  flex items-center gap-[36px]
+}
+.user{
+    @apply flex flex-col 
+}
+.user_number{
+    @apply font-rubik text-[25px] font-bold
+}
+
+.Banner_user .icon{
+    @apply text-brandColor w-[55px] h-[55px] flex justify-center items-center bg-[#FFECEC] rounded-[70px]
+}
+.user p{
+    @apply  text-[20px] font-normal text-[#4F5665] font-rubik
+
+}
+.user_line{
+    @apply w-[2px] h-[125px] bg-[#EEEFF2]  ml-[129px] hidden lg:block
+}

@@ -1,0 +1,59 @@
+.customer{
+   @apply mt-[50px]
+}
+.CommonCustomer{
+   @apply flex justify-between  md:w-[400px] md:h-[220px] border-2 border-[#DDDDDD] rounded-lg
+}
+.box image{
+   @apply pl-[30px]
+}
+.box1{
+   @apply flex flex-wrap  p-[30px] gap-[20px] items-center
+}
+
+
+.box1 h2{
+   @apply w-[142px] font-rubik font-medium text-[18px] text-[#0B132A]
+}
+.box1 p{
+   @apply font-rubik font-normal text-[14px] text-[#4F5665]
+}
+.box1 h3{
+   @apply  font-rubik font-normal text-[16px] text-[#0B132A]
+}
+.rating{
+   @apply ml-12 flex items-center gap-[10px] 
+}
+
+.rating h3
+
+.box1>p{
+   @apply w-[300px]
+
+}
+.main_box{
+   @apply flex gap-[40px] justify-center mt-[60px]
+}
+
+
+
+.slick-dots{
+    @apply !flex gap-[15px] top-[300px] absolute
+}
+.slick-dots li button {
+    @apply text-[0px] w-[10px] h-[10px] rounded-full bg-slate-700
+
+}
+.slick-dots .slick-active button{
+    @apply bg-[#F53838]
+}
+.slick-arrow{
+    @apply transition-all duration-[.4s]   text-[50px] text-[#F53838] absolute top-[280px] right-[200px]
+}
+
+.slick-next{
+    @apply right-[120px] 
+}
+.slick-arrow:hover{
+    @apply bg-[#F53838] text-white rounded-full
+}

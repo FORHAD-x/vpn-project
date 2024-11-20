@@ -1,0 +1,7 @@
+
+.common h2{
+    @apply pb-[20px] m-auto text-center  w-[383px] font-rubik text-[35px] font-medium text-[#0B132A]
+}
+.common p{
+    @apply m-auto text-center md:w-[555px] font-rubik text-[16px] font-normal text-[#4F5665]
+}
